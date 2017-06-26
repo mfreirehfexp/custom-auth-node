@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "test",
+    "types": [
+      "node",
+      "jasmine"
+    ],
+    "allowSyntheticDefaultImports": true
+  },
+  "include": [
+    "src/**/*.ts",
+    "index.ts",
+    "test.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
